@@ -1,5 +1,9 @@
 import random
-r = random.randint(1, 100)
+x = input('請輸入最小值: ')
+y = input('請輸入最大值: ')
+x = int(x)
+y = int(y)
+r = random.randint(x, y)
 count = 0
 while True :
 	count += 1
