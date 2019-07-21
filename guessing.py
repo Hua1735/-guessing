@@ -6,7 +6,7 @@ while True :
 	if g == r:
 		print('答對了')
 		break
-	if g >= r:
+	elif g >= r:
 		print('太大了,再猜一次')
-	if g <= r:
+	elif g <= r:
 		print('太小了，再猜一次')
